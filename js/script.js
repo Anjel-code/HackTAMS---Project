@@ -1,10 +1,18 @@
 let navbarLink = document.querySelectorAll('.navbar__link');
 let iam = document.querySelector('.section__welcome_header');
 let previousIndex = -1;
+const textReel = document.getElementById('textReel');
+
 let phrases = [
-    "I am a web developer",
-    "I am a hacker",
-    "I am a programmer"
+    "I am web developer",
+    "I am hacker",
+    "I am programmer"
+];
+
+const texts = [
+    'Web Developer', 
+    'Game Developer', 
+    'Software Developer'
 ];
 
 function reveal() {
@@ -71,5 +79,17 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     checkWidth();
+
+
+    function updateText() {
+        const currentIndex = texts.indexOf(textReel.textContent);
+        const nextIndex = (currentIndex + 1) % texts.length;
+
+        textReel.textContent = texts[nextIndex];
+    }
+
+    updateText();
+
+    setInterval(updateText, 2000);
 
 });
