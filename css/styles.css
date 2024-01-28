@@ -1,61 +1,61 @@
 /* Misc */
-@import url(/vendor/node_modules/normalize.css/normalize.css);
-@import url(/vendor/bootstrap-5.3.2-dist/css/bootstrap.css);
-@import url(/css/blocks/reveal/reveal.css);
+@import url(./vendor/node_modules/normalize.css/normalize.css);
+@import url(./vendor/bootstrap-5.3.2-dist/css/bootstrap.css);
+@import url(./css/blocks/reveal/reveal.css);
 
 /* Navbar */
-@import url(/css/blocks/navbar/__logo/navbar__logo.css);
-@import url(/css/blocks/navbar/__link/navbar__link.css);
-@import url(/css/blocks/navbar/__link/_active/navbar__link_active.css);
-@import url(/css/blocks/navbar/__transparent/navbar__transparent.css);
+@import url(./css/blocks/navbar/__logo/navbar__logo.css);
+@import url(./css/blocks/navbar/__link/navbar__link.css);
+@import url(./css/blocks/navbar/__link/_active/navbar__link_active.css);
+@import url(./css/blocks/navbar/__transparent/navbar__transparent.css);
 
 /* Video Overlay */
-@import url(/css/blocks/video-container/video-container.css);
-@import url(/css/blocks/video-container/__background/video-container__background.css);
-@import url(/css/blocks/video-container/__overlay/video-container__overlay.css);
+@import url(./css/blocks/video-container/video-container.css);
+@import url(./css/blocks/video-container/__background/video-container__background.css);
+@import url(./css/blocks/video-container/__overlay/video-container__overlay.css);
 
 /* Section */
-@import url(/css/blocks/section/section.css);
+@import url(./css/blocks/section/section.css);
 
 /* Welcome */
-@import url(/css/blocks/section/__welcome/section__welcome.css);
-@import url(/css/blocks/section/__welcome/_typewriter/section__welcome_typewriter.css);
-@import url(/css/blocks/section/__welcome/_header/section__welcome_header.css);
+@import url(./css/blocks/section/__welcome/section__welcome.css);
+@import url(./css/blocks/section/__welcome/_typewriter/section__welcome_typewriter.css);
+@import url(./css/blocks/section/__welcome/_header/section__welcome_header.css);
 
 /* About Us */
-@import url(/css/blocks/section/__about-me/section__about-me.css);
-@import url(/css/blocks/section/__about-me/_title/secton__about-me_title.css);
-@import url(/css/blocks/section/__about-me/_image/section__about-me_image.css);
-@import url(/css/blocks/section/__about-me/_paragraph/section__about-me_paragraph.css);
+@import url(./css/blocks/section/__about-me/section__about-me.css);
+@import url(./css/blocks/section/__about-me/_title/secton__about-me_title.css);
+@import url(./css/blocks/section/__about-me/_image/section__about-me_image.css);
+@import url(./css/blocks/section/__about-me/_paragraph/section__about-me_paragraph.css);
 
 /* Paths */
-@import url(/css/blocks/section/__paths/section__paths.css);
-@import url(/css/blocks/section/__paths/_title/section__paths_title.css);
-@import url(/css/blocks/section/__paths/_card/section__paths_card.css);
-@import url(/css/blocks/section/__paths/_card/_img/section__paths_card_img.css);
-@import url(/css/blocks/section/__paths/_card/_title/section__paths_card_title.css);
-@import url(/css/blocks/section/__paths/_card/_paragraph/section__paths_card_paragraph.css);
-@import url(/css/blocks/section/__paths/_card/_btn/section__paths_card_btn.css);
+@import url(./css/blocks/section/__paths/section__paths.css);
+@import url(./css/blocks/section/__paths/_title/section__paths_title.css);
+@import url(./css/blocks/section/__paths/_card/section__paths_card.css);
+@import url(./css/blocks/section/__paths/_card/_img/section__paths_card_img.css);
+@import url(./css/blocks/section/__paths/_card/_title/section__paths_card_title.css);
+@import url(./css/blocks/section/__paths/_card/_paragraph/section__paths_card_paragraph.css);
+@import url(./css/blocks/section/__paths/_card/_btn/section__paths_card_btn.css);
 
 /* IDE */
-@import url(/css/blocks/section/__ide/section__ide.css);
-@import url(/css/blocks/section/__ide/_title/section__ide_title.css);
-@import url(/css/blocks/section/__ide/_subtitle/section__ide_subtitle.css);
-@import url(/css/blocks/section/__ide/_row/section_ide_row.css);
-@import url(/css/blocks/section/__ide/_card/section__ide_card.css);
-@import url(/css/blocks/section/__ide/_row/_image/section__ide_row_image.css);
+@import url(./css/blocks/section/__ide/section__ide.css);
+@import url(./css/blocks/section/__ide/_title/section__ide_title.css);
+@import url(./css/blocks/section/__ide/_subtitle/section__ide_subtitle.css);
+@import url(./css/blocks/section/__ide/_row/section_ide_row.css);
+@import url(./css/blocks/section/__ide/_card/section__ide_card.css);
+@import url(./css/blocks/section/__ide/_row/_image/section__ide_row_image.css);
 
 /* Tutorials */
-@import url(/css/blocks/section/__tutorials/section__tutorials.css);
-@import url(/css/blocks/section/__tutorials/_container/section__tutorials_container.css);
-@import url(/css/blocks/section/__tutorials/_title/section__tutorials_title.css);
-@import url(/css/blocks/section/__tutorials/_subtitle/section__tutorials_subtitle.css);
+@import url(./css/blocks/section/__tutorials/section__tutorials.css);
+@import url(./css/blocks/section/__tutorials/_container/section__tutorials_container.css);
+@import url(./css/blocks/section/__tutorials/_title/section__tutorials_title.css);
+@import url(./css/blocks/section/__tutorials/_subtitle/section__tutorials_subtitle.css);
 
 /* Community */
-@import url(/css/blocks/section/__community/section__community.css);
-@import url(/css/blocks/section/__community/_title/section__community_title.css);
-@import url(/css/blocks/section/__community/_subtitle/section__community_subtitle.css);
-@import url(/css/blocks/section/__community/_container/section__community_container.css);
-@import url(/css/blocks/section/__community/_container/_offcanvas/section__community_container_offcanvas.css);
+@import url(./css/blocks/section/__community/section__community.css);
+@import url(./css/blocks/section/__community/_title/section__community_title.css);
+@import url(./css/blocks/section/__community/_subtitle/section__community_subtitle.css);
+@import url(./css/blocks/section/__community/_container/section__community_container.css);
+@import url(./css/blocks/section/__community/_container/_offcanvas/section__community_container_offcanvas.css);
 
 /*------------------------------------------------------------------------------------------------------------------------*/
