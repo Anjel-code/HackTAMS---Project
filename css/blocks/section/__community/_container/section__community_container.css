@@ -1,0 +1,8 @@
+.section__community_container {
+    text-align: center;
+}
+
+.section__community_container > .btn {
+    margin: 20px 0 0 0;
+    width: 10%;
+}

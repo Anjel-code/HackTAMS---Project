@@ -1,0 +1,9 @@
+.section__paths_card {
+    width: 32%;
+    height: 700px;
+    margin: 40px 0 0 0;
+    color: #000;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}

@@ -1,0 +1,5 @@
+.section__about-me {
+    display: flex;
+    align-items: center;
+    background-color: #141414;
+}

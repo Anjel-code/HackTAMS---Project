@@ -1,0 +1,8 @@
+.section__about-me_paragraph {
+    font-size: 18px;
+    color: #fff;
+}
+
+.section__about-me_paragraph:not(:first-child) {
+    margin-top: 20px;
+}

@@ -1,0 +1,7 @@
+.section__tutorials {
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 100px;
+}
