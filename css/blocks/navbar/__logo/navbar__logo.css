@@ -1,9 +1,11 @@
 .navbar__logo {
     font-size: 30px;
+    margin: 0 20px 5px 20px;
     transition: transform .7s ease-out, color .7s ease-out;
 }
 
 .navbar__logo:hover {
     transform: scale(1.2);
+    margin-bottom: 10px;
     color: aquamarine !important;
 }
