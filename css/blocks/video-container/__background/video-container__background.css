@@ -1,0 +1,7 @@
+.video-container__background {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+    overflow: hidden;
+}

@@ -1,24 +1,21 @@
 let navbarLink = document.querySelectorAll('.navbar__link');
+let iam = document.querySelector('.section__welcome_header');
+let previousIndex = -1;
+let phrases = [
+    "I am a web developer",
+    "I am a programmer",
+    "I am a Pokemon 0_0"
+]
 
 document.addEventListener('DOMContentLoaded', function() {
     let navbar = document.querySelector('.navbar');
-    let navbarLogo = document.querySelector('.navbar__logo');
-    let navbarLinks = document.querySelectorAll('.navbar__link');
 
     window.addEventListener('scroll', function() {
         if(window.scrollY == 0) {
             navbar.classList.add('navbar__transparent');
-            navbarLogo.classList.add('text-dark');
-            navbarLinks.forEach((element) => {
-                element.classList.add('text-dark');
-            });
         }
         else {
             navbar.classList.remove('navbar__transparent');
-            navbarLogo.classList.remove('text-dark');
-            navbarLinks.forEach((element) => {
-                element.classList.remove('text-dark');
-            });
         }
     })
 
@@ -32,8 +29,31 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+    console.log(iam);
 
+    function changePhrase() {
+        // Generate a random index different from the previous one
+        let newIndex;
+        do {
+            newIndex = Math.floor(Math.random() * 3);
+        } while (newIndex === previousIndex);
     
+        // Update previousIndex with the new index
+        previousIndex = newIndex;
+    
+        iam.textContent = phrases[newIndex];
+    }
+    
+    function checkWidth() {
+        if(iam.offsetWidth == 2) {
+            changePhrase();
+        }
+
+        setTimeout(checkWidth, 200);
+    }
+
+    checkWidth();
+
 
 
 });
